@@ -14,42 +14,54 @@ const Projects = ({darkMode}) => {
     title: 'Forever Clothings',
     desc: 'A MERN-based e-commerce app with authentication, product listing, cart, and order management features.',
     image: project1,
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['React', 'Node.js', 'MongoDB'],
+    gitLink:"https://github.com/ashrafkhan025/FOREVER-CLOTHING.git",
+    link:"https://forever-clothing-frontend-77at.onrender.com"
   },
    {
     id: 2,
     title: 'Lifeline HMS – Full Stack Hospital Management System ',
     desc: 'A MERN hospital management system for managing patients, doctors, and appointments efficiently.',
     image: project2,
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['React', 'Node.js', 'MongoDB'],
+    gitLink:"https://github.com/ashrafkhan025/lifeline.git",
+    link:"https://lifeline-frontend2.onrender.com"
   },
    {
     id: 3,
     title: 'Weather App',
     desc: 'A weather app displaying real-time data using API integration with a responsive UI.',
     image: project3,
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['React', 'Node.js', 'MongoDB'],
+    gitLink:"https://github.com/ashrafkhan025/FOREVER-CLOTHING.git",
+    link:"https://forever-clothing-7d33.onrender.com"
   },
    {
     id: 4,
     title: 'Dashboard',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     image: project4,
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['React', 'Node.js', 'MongoDB'],
+    gitLink:"https://github.com/ashrafkhan025/FOREVER-CLOTHING.git",
+    link:"https://forever-clothing-7d33.onrender.com"
   },
   {
     id: 5,
     title: 'Task Management',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     image: project5,
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['React', 'Node.js', 'MongoDB'],
+    gitLink:"https://github.com/ashrafkhan025/FOREVER-CLOTHING.git",
+    link:"https://forever-clothing-7d33.onrender.com"
   },
   {
     id: 6,
     title: 'Hospital Management',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     image: project6,
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['React', 'Node.js', 'MongoDB'],
+    gitLink:"https://github.com/ashrafkhan025/FOREVER-CLOTHING.git",
+    link:"https://forever-clothing-7d33.onrender.com"
   },
 ];
 
@@ -148,7 +160,7 @@ const Projects = ({darkMode}) => {
                    <div className='flex gap-2'>
 
                      <a
-                       href="#"
+                       href={project.gitLink}
                        style={{
                          backgroundColor: darkMode ? '#374151' : '#f3f4f6',
                          color: darkMode ? 'white' : '#374151'
@@ -166,7 +178,7 @@ const Projects = ({darkMode}) => {
                      </a>
                      {/* Demo */}
                      <a
-                       href="#"
+                       href={project.link}
                        style={{
                          background: 'linear-gradient(to right, #f97316, #f59e0b)',
                          
