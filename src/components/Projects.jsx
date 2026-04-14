@@ -38,12 +38,12 @@ const Projects = ({darkMode}) => {
   },
    {
     id: 4,
-    title: 'Dashboard',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    title: 'Eventora',
+    desc: 'A full-stack event booking app with authentication, real-time seat tracking, and event management.',
     image: project4,
     tags: ['React', 'Node.js', 'MongoDB'],
-    gitLink:"https://github.com/ashrafkhan025/FOREVER-CLOTHING.git",
-    link:"https://forever-clothing-7d33.onrender.com"
+    gitLink:"https://github.com/ashrafkhan025/eventora.git",
+    link:"https://eventora-wzx8.onrender.com"
   },
   {
     id: 5,
